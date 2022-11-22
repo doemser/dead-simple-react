@@ -14,6 +14,6 @@ A form that submits to-dos to a list.
 - input field is required
 - input field clears after form submit
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/examples/todo-app-principles/adding-todo-app)
+[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/adding-todo-app)
 
 </details>

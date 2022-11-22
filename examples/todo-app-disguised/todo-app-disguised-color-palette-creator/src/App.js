@@ -5,7 +5,7 @@ export default function App() {
   const [colorValue, setColorValue] = useState("#1cce93");
   const [todos, setTodos] = useState([
     { hex: "#1c90ce", id: "sdj2Ks" },
-    { hex: "#ce1c37", id: "nZn6xK" }
+    { hex: "#ce1c37", id: "nZn6xK" },
   ]);
 
   return (
@@ -60,7 +60,7 @@ export default function App() {
                   (error) => {
                     console.error(error);
                     alert(
-                      `ERROR - Open the app in a new window under https://u5b73b.csb.app/ or try another browser :)`
+                      `ERROR - Open the app in a new window under https://zpgmu4.csb.app/ or try another browser :)`
                     );
                   }
                 );

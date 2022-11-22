@@ -26,8 +26,8 @@ A form that submits to-dos to a list.
  <summary><font size="3">Complete to-do</font></summary>
 A completable to-dos list.
 
-- uses a controlled checkbox
-- uses map to toggle each todo's completed state
+- uses a controlled input of type checkbox
+- uses `map()` to toggle each todo's completed state
 - uses inline-styling to show if completed
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/completing-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
@@ -38,7 +38,7 @@ A completable to-dos list.
  <summary><font size="3">Delete to-do</font></summary>
 A deletable to-do list.
 
-- uses filter method to delete item
+- uses `filter()` method to delete item
 - has no confirm message
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/deleting-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
@@ -49,7 +49,7 @@ A deletable to-do list.
  <summary><font size="3">Edit to-do</font></summary>
 An editable to-do list.
 
-- uses map method to toggle if todo is in edit mode
+- uses `map()` method to toggle if todo is in edit mode
 - edit mode swaps span with input
 - input controlled by todo name
 - changes are directly written into the state
@@ -68,7 +68,7 @@ An editable to-do list.
  <summary><font size="3">Add to-do - multiple inputs</font></summary>
 A form that submits to-dos with multiple values to a list.
 
-- uses "new FormData()" instead of controlled inputs
+- uses `new FormData()` instead of controlled inputs
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/adding-todo-app-multiple-inputs" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
@@ -99,3 +99,17 @@ An editable to-do list with nested edit mode toggle.
 </details>
 
 ---
+
+## Custom Hooks
+
+<details>
+ <summary><font size="3">useMousePosition</font></summary>
+Custom hook that returns the position of the mouse.
+
+- uses `window.addEventListener()` and `window.removeEventListener()`
+- uses a cleanup function in a useEffect
+- one of the most easiest self written hooks
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hook-use-mouse-position" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>

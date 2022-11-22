@@ -16,8 +16,7 @@ A Tutorial on how to understand props.
 - ignores the existence of children
 - first understand, then learn about children
 
-<a target="blank"></a>
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/props/understanding-props)
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/props/understanding-props" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
 
@@ -33,7 +32,7 @@ A form that submits to-dos to a list.
 - input field is required
 - input field clears after form submit
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/adding-todo-app)
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/adding-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
 
@@ -44,7 +43,7 @@ A deletable to-do list.
 - uses filter method to delete item
 - has no confirm message
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/deleting-todo-app)
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/deleting-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
 
@@ -59,7 +58,7 @@ An editable to-do list.
 
 > this is dead simple - but edit mode should not be in the data we mock as a database, better keep your data structure clean from states that are only needed to render on the frontend.
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/editing-todo-app)
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/editing-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
 
@@ -79,3 +78,5 @@ An editable to-do list with nested edit mode toggle.
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/editing-todo-app-keeping-data-clean" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
+
+---

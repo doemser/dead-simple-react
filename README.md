@@ -115,6 +115,17 @@ A form that submits colors to a list from where you can copy the hex codes.
 
 </details>
 
+<details>
+ <summary><font size="3">Budget Planner</font></summary>
+A form that submits expenses and calculates a budget.
+
+- uses a loading bar to display rest budget
+- uses controlled inputs
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-budget-planner" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
 ---
 
 ## Custom Hooks

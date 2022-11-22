@@ -4,6 +4,22 @@ Dead simple examples to learn how to work with react.
 
 ---
 
+## Props
+
+<details>
+ <summary><font size="3">Understanding props</font></summary>
+A Tutorial on how to understand props.
+
+- read code from top to bottom
+- ignores the existence of children
+- first understand then learn about children
+
+[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/props/understanding-props)
+
+</details>
+
+---
+
 ## To-do App Principles
 
 <details>
@@ -43,17 +59,3 @@ A List you can edit to-do´s on.
 </details>
 
 ---
-
-## Props
-
-<details>
- <summary><font size="3">Understanding props</font></summary>
-A Tutorial on how to understand props.
-
-- read code from top to bottom
-- ignores the existence of children
-- first understand then learn about children
-
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/props/understanding-props)
-
-</details>

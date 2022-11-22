@@ -8,22 +8,6 @@ Dead simple examples to learn how to love react.
 
 ---
 
-## Props
-
-<details>
- <summary><font size="3">Understanding props</font></summary>
-A Tutorial on how to understand props.
-
-- read code from top to bottom
-- ignores the existence of children
-- first understand, then learn about children
-
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/props/understanding-props" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
-
-</details>
-
----
-
 ## To-do App - Principles
 
 <details>

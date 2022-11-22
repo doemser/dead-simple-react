@@ -67,6 +67,17 @@ An editable to-do list.
 ## To-do App - Advanced
 
 <details>
+ <summary><font size="3">Delete to-do - confirm message</font></summary>
+A deletable todo list that asks for confirmation before deleting.
+
+- uses custom component
+- uses "Lifting up State"
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/deleting-todo-app-confirm-message" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
+<details>
  <summary><font size="3">Edit to-do - keeping data clean</font></summary>
 An editable to-do list with nested edit mode toggle.
 
@@ -75,7 +86,7 @@ An editable to-do list with nested edit mode toggle.
 - keeps data structure clean from an items edit state
 - changes are directly written into the state
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/editing-todo-app-keeping-data-clean" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/editing-todo-app-keeping-data-clean" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
 

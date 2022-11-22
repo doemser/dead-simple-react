@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Todo({ todo, onControlTodo, onEditTodo }) {
   return (
-    <li key={todo.id}>
+    <li>
       {todo.edit ? (
         <input
           type="text"
@@ -58,6 +58,7 @@ export default function App() {
         {todos.map((todo) => {
           return (
             <Todo
+              key={todo.id}
               todo={todo}
               onControlTodo={controlTodo}
               onEditTodo={editTodo}

@@ -2,7 +2,9 @@
 
 # dead-simple-react
 
-Dead simple examples to learn how to work with react.
+### Leaving that bloat at home.
+
+Dead simple examples to learn how to love react.
 
 ---
 

@@ -67,6 +67,16 @@ An editable to-do list.
 ## To-do App - Advanced
 
 <details>
+ <summary><font size="3">Add to-do - multiple inputs</font></summary>
+A form that submits to-dos with multiple values to a list.
+
+- uses "new FormData()" instead of controlled inputs
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/adding-todo-app-multiple-inputs" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
+<details>
  <summary><font size="3">Delete to-do - confirm message</font></summary>
 A deletable todo list that asks for confirmation before deleting.
 

@@ -57,10 +57,25 @@ An editable to-do list.
 - input controlled by todo name
 - changes are directly written into the state
 
-> this is dead simple - but edit mode should not be in the data we mock as a database, better use a custom component you map over with a useState in it to activate edit mode.
+> this is dead simple - but edit mode should not be in the data we mock as a database, better keep your data structure clean from states that are only needed to render on the frontend.
 
 [![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/editing-todo-app)
 
 </details>
 
 ---
+
+## To-do App - Advanced
+
+<details>
+ <summary><font size="3">Edit to-do - keeping data clean</font></summary>
+An editable to-do list with nested edit mode toggle.
+
+- uses custom component
+- uses "Lifting up State"
+- keeps data structure clean from an items edit state
+- changes are directly written into the state
+
+[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/editing-todo-app-keeping-data-clean)
+
+</details>

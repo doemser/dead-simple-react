@@ -37,6 +37,18 @@ A form that submits to-dos to a list.
 </details>
 
 <details>
+ <summary><font size="3">Complete to-do</font></summary>
+A completable to-dos list.
+
+- uses a controlled checkbox
+- uses map to toggle each todo's completed state
+- uses inline-styling to show if completed
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/completing-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
+<details>
  <summary><font size="3">Delete to-do</font></summary>
 A deletable to-do list.
 

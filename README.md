@@ -100,6 +100,23 @@ An editable to-do list with nested edit mode toggle.
 
 ---
 
+## To-do App - Disguised
+
+<details>
+ <summary><font size="3">Color Palette Creator</font></summary>
+A form that submits colors to a list from where you can copy the hex codes.
+
+- uses `<input type="color"/>`
+- uses async function `navigator.clipboard.writeText()`
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-color-palette-creator" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+> Depending on the browser, this will throw an error in Codesandbox's editor-mode, but will most likely work if you open the app in a new window.
+
+</details>
+
+---
+
 ## Custom Hooks
 
 <details>

@@ -1,4 +1,4 @@
-<img src="./assets/png/dead-simple-react-logo.png"/>
+<p align="center"><img src="./assets/png/dead-simple-react-logo.png"/></p>
 
 # dead-simple-react
 

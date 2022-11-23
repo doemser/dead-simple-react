@@ -62,9 +62,8 @@ export default function App() {
   return (
     <>
       <h1>Editing Todos</h1>
-
-      <h3>Todos:</h3>
       <h2>keeping data clean</h2>
+      <h3>Todos:</h3>
 
       <ul>
         {todos.map((todo) => {

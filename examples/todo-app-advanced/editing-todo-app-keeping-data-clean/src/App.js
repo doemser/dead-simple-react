@@ -36,6 +36,7 @@ function Todo({ todo, onEditTodo }) {
         type="button"
         onClick={() => {
           setEdit(!edit);
+          setEditValue(todo.name);
         }}
       >
         {edit ? "cancel" : "edit"}

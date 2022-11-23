@@ -3,8 +3,8 @@ import { nanoid } from "nanoid";
 
 export default function App() {
   const [todos, setTodos] = useState([
-    { name: "buy brokkoli", color: "#de1717", id: "sdj2Ks" },
-    { name: "eat brokkoli", color: "#6be109", id: "nZn6xK" },
+    { name: "buy brokkoli", color: "#de1717", category: "fun", id: "sdj2Ks" },
+    { name: "eat brokkoli", color: "#6be109", category: "cool", id: "nZn6xK" },
   ]);
 
   return (
@@ -21,7 +21,12 @@ export default function App() {
 
           setTodos([
             ...todos,
-            { name: data.textInput, color: data.colorInput, id: nanoid(6) },
+            {
+              name: data.textInput,
+              color: data.colorInput,
+              category: data.categorySelection,
+              id: nanoid(6),
+            },
           ]);
         }}
       >
@@ -35,6 +40,15 @@ export default function App() {
           <input type="color" name="colorInput" />
         </label>
         <br />
+        <label>
+          Category:
+          <select name="categorySelection">
+            <option>cool</option>
+            <option>fun</option>
+            <option>work</option>
+          </select>
+        </label>
+        <br />
         <button type="submit">add</button>
       </form>
       <hr />
@@ -45,6 +59,8 @@ export default function App() {
           return (
             <li key={todo.id}>
               <span>{todo.name}</span>
+              <br />
+              <span>category: {todo.category}</span>
               <div
                 style={{
                   width: "10px",

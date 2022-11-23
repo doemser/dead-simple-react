@@ -98,6 +98,19 @@ An editable to-do list with nested edit mode toggle.
 
 </details>
 
+<details>
+ <summary><font size="3">Save to-do - using localStorage</font></summary>
+A todo-list that is saved in your localStorage.
+
+- uses `localStorage.setItem()`
+- uses `localStorage.getItem()`
+
+> Note that this solution will not work in a ssr environment. For ssr use `useSyncExternalStore` or a dedicated library.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/saving-todo-app-using-localstorage" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
 ---
 
 ## To-do App - Disguised

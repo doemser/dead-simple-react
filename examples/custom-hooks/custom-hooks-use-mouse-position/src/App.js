@@ -10,7 +10,7 @@ function useMousePosition() {
       setPosition({ x: pageX, y: pageY });
     };
 
-    window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove, { passive: true });
     // When Effect unmounted
     return () => {
       // First time executed before useEffect runs second time
@@ -34,7 +34,7 @@ export default function App() {
         style={{
           position: "absolute",
           top: y,
-          left: x
+          left: x,
         }}
       >
         Mouse-Follower.

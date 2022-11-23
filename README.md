@@ -168,3 +168,16 @@ Custom hook that returns the position of the mouse.
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-mouse-position" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
+
+<details>
+ <summary><font size="3">usePagination</font></summary>
+Custom hook you can use to implement pagination.
+
+- returns an object with 4 values
+- returns current page
+- returns function for next and previous page
+- returns function to set a specific page
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-pagination" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>

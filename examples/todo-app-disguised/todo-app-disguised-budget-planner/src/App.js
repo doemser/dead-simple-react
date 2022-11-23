@@ -2,14 +2,15 @@ import { useState } from "react";
 import { nanoid } from "nanoid";
 
 export default function App() {
-  const [expenseValue, setExpenseValue] = useState("");
-  const [expenses, setExpenses] = useState(0);
-  const [expensesList, setExpensesList] = useState([]);
   const [budget, setBudget] = useState(1337);
   const [editBudget, setEditBudget] = useState(false);
 
+  const [expenseValue, setExpenseValue] = useState("");
+  const [expenses, setExpenses] = useState(0);
+  const [expensesList, setExpensesList] = useState([]);
+
   const budgetLeft = budget + expenses;
-  const percentOfBudgetLeft = (budget + expenses) / (budget / 100);
+  const percentOfBudgetLeft = budgetLeft / (budget / 100);
 
   return (
     <>
@@ -31,6 +32,7 @@ export default function App() {
       </label>
 
       <br />
+
       <button
         type="button"
         onClick={() => {

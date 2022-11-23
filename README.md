@@ -121,6 +121,9 @@ A form that submits expenses and calculates a budget.
 
 - uses a loading bar to display rest budget
 - uses controlled inputs
+- uses `Number.parseFloat()`
+- uses `Math.round()`
+- size at where you should split up custom components
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-budget-planner" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 

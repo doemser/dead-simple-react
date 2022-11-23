@@ -153,6 +153,16 @@ A form that says what you submit to a list from which you can say it again.
 
 </details>
 
+<details>
+ <summary><font size="3">Review Writer</font></summary>
+A form that submits 5-star reviews.
+
+- uses `Array.from()`
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-review-writer" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
 ---
 
 ## Custom Hooks

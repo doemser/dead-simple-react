@@ -111,6 +111,18 @@ A todo-list that is saved in your localStorage.
 
 </details>
 
+<details>
+ <summary><font size="3">Sort to-do - swapping neighbors</font></summary>
+Todo-list which allows you to swap neighboring to-dos.
+
+- clones the state array to make it mutable
+
+> If you are looking for a better solution, you probably want to take a look at `splice()`method.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/sorting-todo-app-swapping-neighbors" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
 ---
 
 ## To-do App - Disguised

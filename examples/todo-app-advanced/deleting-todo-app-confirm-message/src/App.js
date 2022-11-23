@@ -45,7 +45,7 @@ function Todo({ todo, onDelete }) {
 export default function App() {
   const [todos, setTodos] = useState([
     { name: "buy brokkoli", id: "sdj2Ks" },
-    { name: "eat brokkoli", id: "nZn6xK" }
+    { name: "eat brokkoli", id: "nZn6xK" },
   ]);
 
   function deleteTodo(id) {
@@ -55,6 +55,7 @@ export default function App() {
   return (
     <>
       <h1>Deleting Todos</h1>
+      <h2>confirm message</h2>
 
       <h3>Todos:</h3>
       <ul>

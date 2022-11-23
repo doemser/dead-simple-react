@@ -1,16 +1,33 @@
 import { useState } from "react";
 
-function Todo({ todo, onControlTodo, onEditTodo }) {
+function Todo({ todo, onEditTodo }) {
+  const [edit, setEdit] = useState(false);
+  const [editValue, setEditValue] = useState(todo.name);
+
   return (
     <li>
-      {todo.edit ? (
-        <input
-          type="text"
-          value={todo.name}
-          onChange={(event) => {
-            onControlTodo(event, todo);
+      {edit ? (
+        <form
+          onSubmit={(event) => {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+            const { editInput } = Object.fromEntries(formData);
+
+            onEditTodo(todo.id, editInput);
+            setEdit(false);
           }}
-        />
+        >
+          <input
+            type="text"
+            name="editInput"
+            value={editValue}
+            onChange={(event) => {
+              setEditValue(event.target.value);
+            }}
+          />
+          <button type="submit">save</button>
+        </form>
       ) : (
         <span>{todo.name}</span>
       )}
@@ -18,10 +35,10 @@ function Todo({ todo, onControlTodo, onEditTodo }) {
       <button
         type="button"
         onClick={() => {
-          onEditTodo(todo);
+          setEdit(!edit);
         }}
       >
-        {todo.edit ? "save" : "edit"}
+        {edit ? "cancel" : "edit"}
       </button>
     </li>
   );
@@ -29,22 +46,14 @@ function Todo({ todo, onControlTodo, onEditTodo }) {
 
 export default function App() {
   const [todos, setTodos] = useState([
-    { name: "buy brokkoli", id: "sdj2Ks", edit: false },
-    { name: "eat brokkoli", id: "nZn6xK", edit: false }
+    { name: "buy brokkoli", id: "sdj2Ks" },
+    { name: "eat brokkoli", id: "nZn6xK" },
   ]);
 
-  function controlTodo(event, todo) {
+  function editTodo(id, newValue) {
     setTodos(
       todos.map((todo_) =>
-        todo_.id === todo.id ? { ...todo_, name: event.target.value } : todo_
-      )
-    );
-  }
-
-  function editTodo(todo) {
-    setTodos(
-      todos.map((todo_) =>
-        todo_.id === todo.id ? { ...todo_, edit: !todo_.edit } : todo_
+        todo_.id === id ? { ...todo_, name: newValue } : todo_
       )
     );
   }
@@ -54,16 +63,11 @@ export default function App() {
       <h1>Editing Todos</h1>
 
       <h3>Todos:</h3>
+      <h2>keeping data clean</h2>
+
       <ul>
         {todos.map((todo) => {
-          return (
-            <Todo
-              key={todo.id}
-              todo={todo}
-              onControlTodo={controlTodo}
-              onEditTodo={editTodo}
-            />
-          );
+          return <Todo key={todo.id} todo={todo} onEditTodo={editTodo} />;
         })}
       </ul>
     </>

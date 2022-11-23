@@ -92,7 +92,7 @@ An editable to-do list with nested edit mode toggle.
 - uses custom component
 - uses "Lifting up State"
 - keeps data structure clean from an items edit state
-- changes are directly written into the state
+- uses formData and controlled input
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/editing-todo-app-keeping-data-clean" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
@@ -106,7 +106,7 @@ An editable to-do list with nested edit mode toggle.
  <summary><font size="3">Color Palette Creator</font></summary>
 A form that submits colors to a list from where you can copy the hex codes.
 
-- uses `<input type="color"/>`
+- text and color input are using the same useState
 - uses async function `navigator.clipboard.writeText()`
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-color-palette-creator" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>

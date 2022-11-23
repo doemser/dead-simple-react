@@ -4,12 +4,13 @@ import { nanoid } from "nanoid";
 export default function App() {
   const [todos, setTodos] = useState([
     { name: "buy brokkoli", color: "#de1717", id: "sdj2Ks" },
-    { name: "eat brokkoli", color: "#6be109", id: "nZn6xK" }
+    { name: "eat brokkoli", color: "#6be109", id: "nZn6xK" },
   ]);
 
   return (
     <>
       <h1>Adding Todos</h1>
+      <h2>multiple inputs</h2>
 
       <form
         onSubmit={(event) => {
@@ -20,7 +21,7 @@ export default function App() {
 
           setTodos([
             ...todos,
-            { name: data.textInput, color: data.colorInput, id: nanoid(6) }
+            { name: data.textInput, color: data.colorInput, id: nanoid(6) },
           ]);
         }}
       >
@@ -48,7 +49,7 @@ export default function App() {
                 style={{
                   width: "10px",
                   height: "10px",
-                  background: todo.color
+                  background: todo.color,
                 }}
               />
             </li>

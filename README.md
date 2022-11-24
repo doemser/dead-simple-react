@@ -86,6 +86,16 @@ A deletable todo list that asks for confirmation before deleting.
 </details>
 
 <details>
+ <summary><font size="3">Delete to-do - move to trash</font></summary>
+A deletable todo list that moves item to trash list.
+
+- marks a to-do for trash
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/deleting-todo-app-move-to-trash" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
+<details>
  <summary><font size="3">Edit to-do - keeping data clean</font></summary>
 An editable to-do list with nested edit mode toggle.
 
@@ -245,7 +255,7 @@ Custom component that returns styled text components depending on the props you 
 - can be used for every piece of text in your app
 - accepts `children`, `variant`, `component` and every other prop you want to use
 
-> setting component (semantic) independently from variant (styling) follows the "separation of concerns" principle.
+> Setting component (semantic) independently from variant (styling) separates concerns.
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-typography-component" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 

@@ -11,7 +11,7 @@ Dead simple, advanced examples to learn how to love react.
 ## To-do App - Principles
 
 <details>
- <summary><font size="3">Add to-do</font></summary>
+ <summary><font size="3">Adding to-do</font></summary>
 A form that submits to-dos to a list.
 
 - uses a controlled input
@@ -23,7 +23,7 @@ A form that submits to-dos to a list.
 </details>
 
 <details>
- <summary><font size="3">Complete to-do</font></summary>
+ <summary><font size="3">Completing to-do</font></summary>
 A completable to-dos list.
 
 - uses a controlled input of type checkbox
@@ -35,7 +35,7 @@ A completable to-dos list.
 </details>
 
 <details>
- <summary><font size="3">Delete to-do</font></summary>
+ <summary><font size="3">Deleting to-do</font></summary>
 A deletable to-do list.
 
 - uses `filter()` method to delete item
@@ -46,7 +46,7 @@ A deletable to-do list.
 </details>
 
 <details>
- <summary><font size="3">Edit to-do</font></summary>
+ <summary><font size="3">Editing to-do</font></summary>
 An editable to-do list.
 
 - uses `map()` method to toggle if todo is in edit mode
@@ -65,7 +65,7 @@ An editable to-do list.
 ## To-do App - Advanced
 
 <details>
- <summary><font size="3">Add to-do - multiple inputs</font></summary>
+ <summary><font size="3">Adding to-do - multiple inputs</font></summary>
 A form that submits to-dos with multiple values to a list.
 
 - uses `new FormData()` instead of controlled inputs
@@ -75,7 +75,7 @@ A form that submits to-dos with multiple values to a list.
 </details>
 
 <details>
- <summary><font size="3">Delete to-do - confirm message</font></summary>
+ <summary><font size="3">Deleting to-do - confirm message</font></summary>
 A deletable todo list that asks for confirmation before deleting.
 
 - uses custom component
@@ -86,7 +86,7 @@ A deletable todo list that asks for confirmation before deleting.
 </details>
 
 <details>
- <summary><font size="3">Delete to-do - move to trash</font></summary>
+ <summary><font size="3">Deleting to-do - move to trash</font></summary>
 A deletable todo list that moves item to trash list.
 
 - marks a to-do for trash
@@ -97,7 +97,7 @@ A deletable todo list that moves item to trash list.
 </details>
 
 <details>
- <summary><font size="3">Edit to-do - keeping data clean</font></summary>
+ <summary><font size="3">Editing to-do - keeping data clean</font></summary>
 An editable to-do list with nested edit mode toggle.
 
 - uses custom component
@@ -110,7 +110,7 @@ An editable to-do list with nested edit mode toggle.
 </details>
 
 <details>
- <summary><font size="3">Save to-do - using localStorage</font></summary>
+ <summary><font size="3">Saving to-do - using localStorage</font></summary>
 A todo-list that is saved in your localStorage.
 
 - uses `localStorage.setItem()`
@@ -123,7 +123,7 @@ A todo-list that is saved in your localStorage.
 </details>
 
 <details>
- <summary><font size="3">Sort to-do - swapping neighbors</font></summary>
+ <summary><font size="3">Sorting to-do - swapping neighbors</font></summary>
 Todo-list which allows you to swap neighboring to-dos.
 
 - clones the state array to make it mutable

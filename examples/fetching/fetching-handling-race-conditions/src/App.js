@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function App() {
   const [loading, setLoading] = useState(false);
-  const [people, setPeople] = useState();
+  const [person, setPerson] = useState();
   const [page, setPage] = useState(1);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ export default function App() {
 
       if (!ignore) {
         const data = await response.json();
-        setPeople(data);
+        setPerson(data);
         setLoading(false);
       }
     }
@@ -52,7 +52,7 @@ export default function App() {
         next Page
       </button>
 
-      <h2>{loading ? "loading.." : people?.name}</h2>
+      <h2>{loading ? "loading.." : person?.name}</h2>
     </>
   );
 }

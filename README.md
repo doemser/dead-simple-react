@@ -4,7 +4,7 @@
 
 ### Leaving that bloat at home.
 
-Dead simple examples to learn how to love react.
+Dead simple, advanced examples to learn how to love react.
 
 ---
 
@@ -178,6 +178,17 @@ A form that submits 5-star reviews.
 ---
 
 ## Fetching
+
+<details>
+ <summary><font size="3">Fetching - nested fetching</font></summary>
+Fetch that receives data including another url you need to fetch.
+
+- uses async/await
+- uses a loading state
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-nested-fetching" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
 
 <details>
  <summary><font size="3">Fetching - handling race conditions</font></summary>

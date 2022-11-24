@@ -249,6 +249,17 @@ Custom hook you can use to implement pagination.
 ## styled components
 
 <details>
+ <summary><font size="3">Button-Link-Component</font></summary>
+Custom component that either returns a button or an anchor.
+
+- similar to [mui's Button Component](https://mui.com/material-ui/react-button/)
+- can be used for every button and link in your app
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-button-component" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
+<details>
  <summary><font size="3">Typography-Component</font></summary>
 Custom component that returns styled text components depending on the props you pass.
 

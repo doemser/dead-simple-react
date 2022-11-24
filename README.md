@@ -232,3 +232,21 @@ Custom hook you can use to implement pagination.
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-pagination" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
+
+---
+
+## styled components
+
+<details>
+ <summary><font size="3">Typography-Component</font></summary>
+Custom component that returns styled text components depending on the props you pass.
+
+- similar to [mui's Typography Component](https://mui.com/material-ui/react-typography/)
+- can be used for every piece of text in your app
+- accepts `children`, `variant`, `component` and every other prop you want to use
+
+> setting component (semantic) independently from variant (styling) follows the "separation of concerns" principle.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-typography-component" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>

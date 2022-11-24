@@ -177,6 +177,23 @@ A form that submits 5-star reviews.
 
 ---
 
+## Fetching
+
+<details>
+ <summary><font size="3">Fetching - handling race conditions</font></summary>
+Fetch with pagination that handles race conditions.
+
+- uses pagination to fetch
+- uses a cleanup function in useEffect to set an ignore flag
+
+> While fetching with pagination it is not guaranteed, that response for page 2 arrives after response for page 1, so we manually take care of that.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-handling-race-conditions" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>
+
+---
+
 ## Custom Hooks
 
 <details>

@@ -90,6 +90,7 @@ A deletable todo list that asks for confirmation before deleting.
 A deletable todo list that moves item to trash list.
 
 - marks a to-do for trash
+- uses `filter()`
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/deleting-todo-app-move-to-trash" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 

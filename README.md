@@ -183,6 +183,7 @@ A form that submits 5-star reviews.
  <summary><font size="3">Fetching - handling race conditions</font></summary>
 Fetch with pagination that handles race conditions.
 
+- uses async/await
 - uses pagination to fetch
 - uses a cleanup function in useEffect to set an ignore flag
 

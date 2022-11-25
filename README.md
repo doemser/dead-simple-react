@@ -272,3 +272,21 @@ Custom component that returns styled text components depending on the props you 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-typography-component" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
 
 </details>
+
+---
+
+## zustand.js
+
+<details>
+ <summary><font size="3">To-do App</font></summary>
+To-do App that uses global state with zustand.js.
+
+- can add using spreading
+- can delete using `filter()`
+- can complete using `map()`
+
+> Note that zustand.js as a global state management system can be imported directly into components, no matter how deep they are nested in the tree.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+
+</details>

@@ -17,6 +17,7 @@
 ## Keep the following guidelines in mind:
 
 - no unnecessary styles
+- no unnecessary semantics
 - no unnecessary a11y
 - comments mainly on advanced concepts
 - do not tell stories

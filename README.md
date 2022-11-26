@@ -10,7 +10,7 @@ Dead simple, advanced examples to learn how to love react.
 
 ### This is an open source project.
 
-<a href="./docs/how-to-cobtribute.md" target="_blank">![How to contribute](./assets/png/how-to-contribute.png)</a>
+<a href="./docs/how-to-contribute.md" target="_blank">![How to contribute](./assets/png/how-to-contribute.png)</a>
 
 ---
 

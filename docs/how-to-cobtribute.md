@@ -1,3 +1,5 @@
+<p align="center"><img src="../assets/png/dead-simple-react-logo.png"/></p>
+
 # How to Contribute
 
 ## Contributions are needed for:

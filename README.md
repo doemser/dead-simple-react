@@ -2,9 +2,13 @@
 
 # dead-simple-react
 
-### Leaving that bloat at home.
+## Leaving that bloat at home.
 
 Dead simple, advanced examples to learn how to love react.
+
+### This is an open source project.
+
+<a href="./docs/how-to-cobtribute.md" target="_blank">![How to contribute](./assets/png/how-to-contribute.png)</a>
 
 ---
 
@@ -18,7 +22,7 @@ A form that submits to-dos to a list.
 - input field is required
 - input field clears after form submit
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/adding-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/adding-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -30,7 +34,7 @@ A completable to-dos list.
 - uses `map()` to toggle each todo's completed state
 - uses inline-styling to show if completed
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/completing-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/completing-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -41,7 +45,7 @@ A deletable to-do list.
 - uses `filter()` method to delete item
 - has no confirm message
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/deleting-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/deleting-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -56,7 +60,7 @@ An editable to-do list.
 
 > this is dead simple - but edit mode should not be in the data we mock as a database, better keep your data structure clean from states that are only needed to render on the frontend.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/editing-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/editing-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -70,7 +74,7 @@ A form that submits to-dos with multiple values to a list.
 
 - uses `new FormData()` instead of controlled inputs
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/adding-todo-app-multiple-inputs" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/adding-todo-app-multiple-inputs" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -81,7 +85,7 @@ A deletable todo list that asks for confirmation before deleting.
 - uses custom component
 - uses "Lifting up State"
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/deleting-todo-app-confirm-message" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/deleting-todo-app-confirm-message" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -92,7 +96,7 @@ A deletable todo list that moves item to trash list.
 - marks a to-do for trash
 - uses `filter()` chained with `map()`
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/deleting-todo-app-move-to-trash" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/deleting-todo-app-move-to-trash" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -105,7 +109,7 @@ An editable to-do list with nested edit mode toggle.
 - keeps data structure clean from an items edit state
 - uses formData and controlled input
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/editing-todo-app-keeping-data-clean" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/editing-todo-app-keeping-data-clean" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -118,7 +122,7 @@ A todo-list that is saved in your localStorage.
 
 > Note that this solution will not work in a ssr environment. For ssr use `useSyncExternalStore` or a dedicated library.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/saving-todo-app-using-localstorage" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/saving-todo-app-using-localstorage" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -130,7 +134,7 @@ Todo-list which allows you to swap neighboring to-dos.
 
 > If you are looking for a better solution, you probably want to take a look at `splice()`method.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/sorting-todo-app-swapping-neighbors" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/sorting-todo-app-swapping-neighbors" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -145,7 +149,7 @@ A form that submits colors to a list from where you can copy the hex codes.
 - text and color input are using the same useState
 - uses async function `navigator.clipboard.writeText()`
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-color-palette-creator" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-color-palette-creator" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 > Depending on the browser, this will throw an error in Codesandbox's editor-mode, but will most likely work if you open the app in a new window.
 
@@ -161,7 +165,7 @@ A form that submits expenses and calculates a budget.
 - uses `Math.round()`
 - size at where you should split up custom components
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-budget-planner" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-budget-planner" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -172,7 +176,7 @@ A form that says what you submit to a list from which you can say it again.
 - uses Web Speech API
 - uses your browsers default language/voice
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-speech-synthesizer" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-speech-synthesizer" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -182,7 +186,7 @@ A form that submits 5-star reviews.
 
 - uses `Array.from()`
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-review-writer" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-review-writer" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -197,7 +201,7 @@ Fetch that receives data including another url you need to fetch.
 - uses async/await
 - uses a loading state
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-nested-fetching" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-nested-fetching" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -211,7 +215,7 @@ Fetch with pagination that handles race conditions.
 
 > While fetching with pagination it is not guaranteed, that responses arrive in the same order we request them, so we manually take care, that the last request will always be the last no matter if it responded faster than an earlier request.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-handling-race-conditions" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-handling-race-conditions" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -227,7 +231,7 @@ Custom hook that returns the position of the mouse.
 - uses a cleanup function in a useEffect
 - one of the most easiest self written hooks
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-mouse-position" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-mouse-position" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -240,7 +244,7 @@ Custom hook you can use to implement pagination.
 - returns function for next and previous page
 - returns function to set a specific page
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-pagination" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-pagination" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -255,7 +259,7 @@ Custom component that either returns a button or an anchor.
 - similar to [mui's Button Component](https://mui.com/material-ui/react-button/)
 - can be used for every button and link in your app
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-button-component" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-button-component" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -269,7 +273,7 @@ Custom component that returns styled text components depending on the props you 
 
 > Setting component (semantic) independently from variant (styling) separates concerns.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-typography-component" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-typography-component" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
 
@@ -287,6 +291,12 @@ To-do App that uses global state with zustand.js.
 
 > Note that zustand.js as a global state management system can be imported directly into components, no matter how deep they are nested in the tree.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-todo-app" target="_blank">![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
+
+---
+
+## Something wrong?
+
+<a href="https://github.com/doemser/dead-simple-react/issues" target="_blank">![Write / Find Issues](./assets/png/write-find-issues.png)</a>

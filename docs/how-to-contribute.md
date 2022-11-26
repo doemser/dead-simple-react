@@ -2,15 +2,21 @@
 
 # How to Contribute
 
-## Contributions are needed for:
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/templates/dead-simple-example-start" target="_blank">![Write / Find Issues](../assets/png/drop-an-example.png)</a>
+
+Just export the Codesandbox as zip, unpack it and copy it to the right directory.
+
+Fork this repository and put a pull request against it.
+
+---
+
+## Contributions are highly welcome for:
 
 - key points
 - code comments
 - typos and wrong english
 - advanced react examples
 - advanced famous library examples
-
-> If you want to contribute, fork this repo and make a pull request against main.
 
 ---
 
@@ -19,18 +25,14 @@
 - no unnecessary styles
 - no unnecessary semantics
 - no unnecessary a11y
-- comments mainly on advanced concepts
-- do not tell stories
+- comments mainly on advanced react concepts
 - stick to the prevailing formatting
-
-## no bloat.
-
----
-
-Your pullrequest will be checked, reviewed and confirmed shortly, if we agree.
+- do not tell stories
 
 ---
 
 ## You don't feel addressed?
+
+Wanna talk about it?
 
 <a href="https://github.com/doemser/dead-simple-react/issues" target="_blank">![Write / Find Issues](../assets/png/write-find-issues.png)</a>

@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function App() {
   // The edit key is only needed in the frontend
   // and would have no added value in a database.
-  // There is a better way, keeping your data clean
+  // There is a better way keeping your data clean,
   // we show it in the advanced examples.
   const [todos, setTodos] = useState([
     { name: "buy brokkoli", id: "sdj2Ks", edit: false },

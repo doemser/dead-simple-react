@@ -313,6 +313,20 @@ Fetch that uses global state with zustand.js.
 
 ---
 
+## useWASD
+
+<details>
+ <summary><font size="3">Vanilla Source Code</font></summary>
+This is the no typescript version of <a href="https://codesandbox.io/s/usewasd-ref-6d52sn?file=/src/App.js">useWASD</a> npm package.
+
+- highly complicated
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-vanilla" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+
+</details>
+
+---
+
 ## Something wrong?
 
 Wanna talk about it?

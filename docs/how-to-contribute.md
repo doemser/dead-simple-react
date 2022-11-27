@@ -43,6 +43,6 @@ Wanna talk about it?
 
 ### use-wasd
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-basic" target="_blank">![useWASD Basic example](../assets/png/use-wasd.png)</a>
+<a href="https://www.npmjs.com/package/use-wasd" target="_blank">![useWASD Basic example](../assets/png/use-wasd.png)</a>
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-basic" target="_blank">![useWASD Basic example](../assets/png/use-wasd-try-it-yourself.png)</a>

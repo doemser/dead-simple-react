@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { nanoid } from "nanoid";
 
+// This app is super cluttered and should definitely be split into components.
 export default function App() {
   const [budget, setBudget] = useState(1337);
   const [editBudget, setEditBudget] = useState(false);
@@ -9,6 +10,8 @@ export default function App() {
   const [expenses, setExpenses] = useState(0);
   const [expensesList, setExpensesList] = useState([]);
 
+  // If you want to calculate with two different states,
+  // you usually do not need another state for this.
   const budgetLeft = budget + expenses;
   const percentOfBudgetLeft = budgetLeft / (budget / 100);
 

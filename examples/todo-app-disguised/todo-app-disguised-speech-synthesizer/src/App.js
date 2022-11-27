@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { nanoid } from "nanoid";
 
+// Creates a speech synthesis statement/utterance
+// and then uses the Web Speech API to pronounce it.
 function say(text) {
   const utterance = new SpeechSynthesisUtterance(text);
   speechSynthesis.speak(utterance);
@@ -8,7 +10,7 @@ function say(text) {
 
 export default function App() {
   const [thingsSaid, setThingsSaid] = useState([
-    { text: "keep it simple stupid", id: "hZNks" }
+    { text: "keep it simple stupid", id: "hZNks" },
   ]);
 
   return (

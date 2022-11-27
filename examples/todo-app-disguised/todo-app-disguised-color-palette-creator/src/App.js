@@ -2,6 +2,7 @@ import { useState } from "react";
 import { nanoid } from "nanoid";
 
 export default function App() {
+  // text and color input are both controlled by this state
   const [colorValue, setColorValue] = useState("#1cce93");
   const [todos, setTodos] = useState([
     { hex: "#1c90ce", id: "sdj2Ks" },
@@ -53,6 +54,7 @@ export default function App() {
               type="button"
               style={{ margin: "20px" }}
               onClick={() => {
+                // navigator.clipboard.writeText() is an async function we have to wait for
                 navigator.clipboard.writeText(todo.hex).then(
                   () => {
                     alert(`copied ${todo.hex} to the clipboard`);

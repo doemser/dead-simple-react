@@ -36,3 +36,13 @@ Fork this repository and put a pull request against it.
 Wanna talk about it?
 
 <a href="https://github.com/doemser/dead-simple-react/issues" target="_blank">![Write / Find Issues](../assets/png/write-find-issues.png)</a>
+
+---
+
+## Also responsible for:
+
+### use-wasd
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-basic" target="_blank">![useWASD Basic example](../assets/png/use-wasd.png)</a>
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-basic" target="_blank">![useWASD Basic example](../assets/png/use-wasd-try-it-yourself.png)</a>

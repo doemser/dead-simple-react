@@ -324,6 +324,14 @@ Returns an object containing the keys you pressed and whether you are currently 
 </details>
 
 <details>
+ <summary><font size="3">Combos example</font></summary>
+Lets you declare custom keyboard combos/shortcuts.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-combos" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+
+</details>
+
+<details>
  <summary><font size="3">Vanilla Source Code</font></summary>
 This is the no typescript version of <a href="https://www.npmjs.com/package/use-wasd">useWASD</a> npm package.
 

@@ -332,6 +332,22 @@ Lets you declare custom keyboard combos/shortcuts.
 </details>
 
 <details>
+ <summary><font size="3">Initial value example</font></summary>
+Lets you initialize the hook.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-initial-value" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+
+</details>
+
+<details>
+ <summary><font size="3">Prevent default example</font></summary>
+Lets you prevent default browser behavior for keys.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-prevent-default" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+
+</details>
+
+<details>
  <summary><font size="3">Vanilla Source Code</font></summary>
 This is the no typescript version of <a href="https://www.npmjs.com/package/use-wasd">useWASD</a> npm package.
 

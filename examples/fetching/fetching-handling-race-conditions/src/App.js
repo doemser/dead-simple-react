@@ -13,6 +13,7 @@ export default function App() {
 
       const response = await fetch(`https://swapi.dev/api/people/${page}`);
 
+      // Use response only if ignore is false.
       if (!ignore) {
         const data = await response.json();
         setPerson(data);
@@ -22,6 +23,10 @@ export default function App() {
 
     startFetching();
 
+    // This function is called when unmounting the component
+    // and is executed the first time before the second rendering.
+    // This ensures that our last request is the last result,
+    // no matter how long the responses take.
     return () => {
       ignore = true;
     };

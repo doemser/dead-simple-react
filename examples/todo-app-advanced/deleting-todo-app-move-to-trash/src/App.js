@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function App() {
   const [todos, setTodos] = useState([
     { name: "buy brokkoli", id: "sdj2Ks", markedAsTrash: false },
-    { name: "eat brokkoli", id: "nZn6xK", markedAsTrash: false }
+    { name: "eat brokkoli", id: "nZn6xK", markedAsTrash: false },
   ]);
 
   return (
@@ -13,6 +13,7 @@ export default function App() {
 
       <h3>Todos:</h3>
       <ul>
+        {/* Filters to-dos that are not marked as trash before mapping*/}
         {todos
           .filter((todo_) => !todo_.markedAsTrash)
           .map((todo) => {
@@ -40,6 +41,7 @@ export default function App() {
 
       <h3>Trash:</h3>
       <ul>
+        {/* Filters to-dos that are marked as trash before mapping*/}
         {todos
           .filter((todo_) => todo_.markedAsTrash)
           .map((todo_) => {

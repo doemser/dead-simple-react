@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 function Todo({ todo, onEditTodo }) {
+  // Nested useState to handle state that is only needed for rendering.
+  // Keeps your todo data clean.
   const [edit, setEdit] = useState(false);
   const [editValue, setEditValue] = useState(todo.name);
 
@@ -51,6 +53,10 @@ export default function App() {
     { name: "eat brokkoli", id: "nZn6xK" },
   ]);
 
+  // Lifting up state.
+  // Wrap set function in handler function.
+  // Pass handler function to component, which executes it.
+  // Keep logic close to useState
   function editTodo(id, newValue) {
     setTodos(
       todos.map((todo_) =>

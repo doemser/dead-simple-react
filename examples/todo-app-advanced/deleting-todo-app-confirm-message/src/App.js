@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 function Todo({ todo, onDelete }) {
+  // Nested useState to handle state that is only needed for rendering.
+  // Keeps your todo data clean.
   const [deleteMode, setDeleteMode] = useState(false);
 
   return (
@@ -48,6 +50,10 @@ export default function App() {
     { name: "eat brokkoli", id: "nZn6xK" },
   ]);
 
+  // Lifting up state.
+  // Wrap set function in handler function.
+  // Pass handler function to component, which executes it.
+  // Keep logic close to useState
   function deleteTodo(id) {
     setTodos(todos.filter((todo_) => todo_.id !== id));
   }

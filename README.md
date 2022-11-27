@@ -74,7 +74,7 @@ An editable to-do list.
  <summary><font size="3">Adding to-do - multiple inputs</font></summary>
 A form that submits to-dos with multiple values to a list.
 
-- uses `new FormData()` instead of controlled inputs
+- uses `new FormData()` and `Object.fromEntries()` instead of controlled inputs
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/adding-todo-app-multiple-inputs" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
@@ -86,6 +86,7 @@ A deletable todo list that asks for confirmation before deleting.
 
 - uses custom component
 - uses "Lifting up State"
+- uses nested useState for delete mode
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/deleting-todo-app-confirm-message" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 

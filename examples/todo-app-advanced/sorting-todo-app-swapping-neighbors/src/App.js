@@ -4,10 +4,13 @@ export default function App() {
   const [todos, setTodos] = useState([
     { name: "love", id: 1 },
     { name: "death", id: 2 },
-    { name: "robots", id: 3 }
+    { name: "robots", id: 3 },
   ]);
 
+  // Swaps the values of two indexes in an array.
   function moveTodo(oldIndex, newIndex) {
+    // Was cloned because states in a useState are
+    // considered immutable regardless of the datatype
     const clone = [...todos];
     const cachedValue = clone[oldIndex];
     clone[oldIndex] = clone[newIndex];

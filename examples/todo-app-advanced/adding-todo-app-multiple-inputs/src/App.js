@@ -15,8 +15,9 @@ export default function App() {
       <form
         onSubmit={(event) => {
           event.preventDefault();
-
+          // Creates a FormData object.
           const formData = new FormData(event.target);
+          // Transforms a list of key-value pairs into an object
           const data = Object.fromEntries(formData);
 
           setTodos([

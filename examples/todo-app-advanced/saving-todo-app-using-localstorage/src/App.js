@@ -6,6 +6,9 @@ function setItem(key, value) {
 }
 
 export default function App() {
+  // If there is data for the key in localStorage,
+  // initialize the useState with it,
+  // otherwise initialize with an empty array.
   const [todos, setTodos] = useState(
     JSON.parse(localStorage.getItem("todos")) ?? []
   );
@@ -20,6 +23,7 @@ export default function App() {
           event.preventDefault();
           const newTodos = [...todos, nanoid(5)];
           setTodos(newTodos);
+          // Saving key and value to localStorage
           setItem("todos", newTodos);
         }}
       >
@@ -28,6 +32,7 @@ export default function App() {
           type="button"
           onClick={() => {
             setTodos([]);
+            // Resetting localStorage to an empty array
             setItem("todos", []);
           }}
         >

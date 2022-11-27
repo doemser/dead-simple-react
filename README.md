@@ -253,7 +253,7 @@ Custom hook you can use to implement pagination.
 
 ---
 
-## styled components
+## <a href="https://www.npmjs.com/package/styled-components" target="_blank">styled-components</a>
 
 <details>
  <summary><font size="3">Button-Link-Component</font></summary>
@@ -282,7 +282,7 @@ Custom component that returns styled text components depending on the props you 
 
 ---
 
-## zustand.js
+## <a href="https://www.npmjs.com/package/zustand" target="_blank">zustand.js</a>
 
 <details>
  <summary><font size="3">To-do App</font></summary>
@@ -313,7 +313,15 @@ Fetch that uses global state with zustand.js.
 
 ---
 
-## useWASD
+## <a href="https://www.npmjs.com/package/use-wasd" target="_blank">use-wasd</a>
+
+<details>
+ <summary><font size="3">Basic example</font></summary>
+Returns an object containing the keys you pressed and whether you are currently pressing them.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-basic" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+
+</details>
 
 <details>
  <summary><font size="3">Vanilla Source Code</font></summary>

@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function App() {
   const [todos, setTodos] = useState([
     { name: "buy brokkoli", id: "sdj2Ks" },
-    { name: "eat brokkoli", id: "nZn6xK" }
+    { name: "eat brokkoli", id: "nZn6xK" },
   ]);
 
   return (
@@ -19,6 +19,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={() => {
+                  // The filter method returns any id that does not match the current one and deletes it like this
                   setTodos(todos.filter((todo_) => todo_.id !== todo.id));
                 }}
               >

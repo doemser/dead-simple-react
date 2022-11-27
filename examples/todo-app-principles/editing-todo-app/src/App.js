@@ -1,9 +1,13 @@
 import { useState } from "react";
 
 export default function App() {
+  // The edit key is only needed in the frontend
+  // and would have no added value in a database.
+  // There is a better way, keeping your data clean
+  // we show it in the advanced examples.
   const [todos, setTodos] = useState([
     { name: "buy brokkoli", id: "sdj2Ks", edit: false },
-    { name: "eat brokkoli", id: "nZn6xK", edit: false }
+    { name: "eat brokkoli", id: "nZn6xK", edit: false },
   ]);
 
   return (
@@ -15,6 +19,8 @@ export default function App() {
         {todos.map((todo) => {
           return (
             <li key={todo.id}>
+              {/* This conditionally renders either a controlled input or a span
+              that contains just the todo name. */}
               {todo.edit ? (
                 <input
                   type="text"
@@ -32,11 +38,11 @@ export default function App() {
               ) : (
                 <span>{todo.name}</span>
               )}
-              
               <button
                 type="button"
                 onClick={() => {
                   setTodos(
+                    // If id's match, edit state will bei toggled.
                     todos.map((todo_) =>
                       todo_.id === todo.id
                         ? { ...todo_, edit: !todo_.edit }

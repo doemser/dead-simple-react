@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function App() {
   const [todos, setTodos] = useState([
     { name: "buy brokkoli", completed: true, id: "sdj2Ks" },
-    { name: "eat brokkoli", completed: false, id: "nZn6xK" }
+    { name: "eat brokkoli", completed: false, id: "nZn6xK" },
   ]);
 
   return (
@@ -17,9 +17,11 @@ export default function App() {
             <li key={todo.id}>
               <input
                 type="checkbox"
+                // Controlled input of type checkbox - uses "checked" instead of "value".
                 checked={todo.completed}
                 onChange={() => {
                   setTodos(
+                    // Map over each todo and toggle completed if id matches.
                     todos.map((todo_) =>
                       todo_.id === todo.id
                         ? { ...todo_, completed: !todo_.completed }

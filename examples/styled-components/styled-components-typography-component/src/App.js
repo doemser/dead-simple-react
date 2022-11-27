@@ -7,12 +7,15 @@ const StyledBodyText = styled.p`
   background: ${({ someProp }) => someProp};
 `;
 
+// Could map all styles that a typography can have in a project.
 const Typography = ({
   children,
   variant = "bodyText",
   component,
   ...props
 }) => {
+  // Depending on the props you pass
+  // this lets you separate component style ( variant ) and semantics ( component ).
   if (variant === "h1") {
     return (
       <StyledH1 as={component} {...props}>

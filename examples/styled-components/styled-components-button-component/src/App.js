@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 
+// Could map all styles that a button or link can have in a project.
 const StyledButton = styled.button`
   display: inline-block;
   text-align: center;
@@ -42,6 +43,8 @@ const StyledButton = styled.button`
 `;
 
 function Button(props) {
+  // The component decides whether a button or an anchor is rendered,
+  // based on whether an href prop was passed through.
   return (
     <StyledButton as={props.href && "a"} {...props}>
       {props.children}

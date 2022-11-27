@@ -17,7 +17,7 @@ function usePagination(initialValue = 1) {
     setPage(page);
   }
 
-  // Returns all the handler functions within an object.
+  // Returns all the handler functions and the current page within an object.
   return { page, previousPage, nextPage, goToPage };
 }
 

@@ -317,7 +317,7 @@ Fetch that uses global state with zustand.js.
 
 <details>
  <summary><font size="3">Vanilla Source Code</font></summary>
-This is the no typescript version of <a href="https://codesandbox.io/s/usewasd-ref-6d52sn?file=/src/App.js">useWASD</a> npm package.
+This is the no typescript version of <a href="https://www.npmjs.com/package/use-wasd">useWASD</a> npm package.
 
 - highly complicated
 

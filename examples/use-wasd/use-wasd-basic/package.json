@@ -8,7 +8,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "4.0.0",
-    "use-wasd": "2.0.3"
+    "use-wasd": "2.0.4"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",

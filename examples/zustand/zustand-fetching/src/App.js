@@ -1,24 +1,27 @@
 import create from "zustand";
 import { useEffect } from "react";
 
+// Global state management
 const useStore = create((set) => ({
   planets: undefined,
-  fetchPlanets: async () => {
+  fetchPlanets: async (url) => {
     try {
-      const response = await fetch("https://swapi.dev/api/planets");
+      const response = await fetch(url);
       const planets = await response.json();
       set({ planets: planets.results });
     } catch (error) {
       console.error(`dead-simple-error: ${error}`);
     }
-  }
+  },
 }));
 
 export default function App() {
   const planets = useStore((state) => state.planets);
 
   useEffect(() => {
-    useStore.getState().fetchPlanets();
+    // Using this syntax allows us to not have to write
+    // the function into the dependency array.
+    useStore.getState().fetchPlanets("https://swapi.dev/api/planets");
   }, []);
 
   return (

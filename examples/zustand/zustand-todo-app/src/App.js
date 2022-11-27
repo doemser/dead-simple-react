@@ -1,12 +1,15 @@
 import create from "zustand";
 import { nanoid } from "nanoid";
 
+// Global state management
 const useStore = create((set) => ({
+  // This key holds a state.
   todos: [{ name: "use zustand.js", complete: true, id: "kadJn" }],
+  // This keys are holding function to update the state.
   addTodo: (name) => {
     set((state) => {
       return {
-        todos: [...state.todos, { name, complete: false, id: nanoid() }]
+        todos: [...state.todos, { name, complete: false, id: nanoid() }],
       };
     });
   },
@@ -20,13 +23,15 @@ const useStore = create((set) => ({
       return {
         todos: state.todos.map((todo) =>
           todo.id === id ? { ...todo, complete: !todo.complete } : todo
-        )
+        ),
       };
     });
-  }
+  },
 }));
 
 export default function App() {
+  // States and functions to update those,
+  // can be directly imported into components
   const todos = useStore((state) => state.todos);
   const addTodo = useStore((state) => state.addTodo);
   const deleteTodo = useStore((state) => state.deleteTodo);

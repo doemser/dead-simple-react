@@ -1,8 +1,8 @@
 import useWASD from "use-wasd";
 
 export default function App() {
-  // Returns object with every key you press on the keyboard
-  // and if they are currently pressed.
+  // Returns an object containing the keys you pressed
+  // and whether you are currently pressing them.
   const keyboard = useWASD();
   return (
     <>

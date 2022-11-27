@@ -348,6 +348,14 @@ Lets you prevent default browser behavior for keys.
 </details>
 
 <details>
+ <summary><font size="3">ref example</font></summary>
+Lets you attach the event listener to a different element than the window.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/use-wasd/use-wasd-ref" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+
+</details>
+
+<details>
  <summary><font size="3">Vanilla Source Code</font></summary>
 This is the no typescript version of <a href="https://www.npmjs.com/package/use-wasd">useWASD</a> npm package.
 

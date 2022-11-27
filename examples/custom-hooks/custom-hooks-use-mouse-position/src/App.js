@@ -4,16 +4,17 @@ function useMousePosition() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    // update x and y position
-    const handleMouseMove = (event) => {
+    function handleMouseMove(event) {
       const { pageX, pageY } = event;
       setPosition({ x: pageX, y: pageY });
-    };
+    }
 
     window.addEventListener("mousemove", handleMouseMove, { passive: true });
-    // When Effect unmounted
+
+    // This function is called when unmounting the component
+    // and is executed the first time before the second rendering.
+    // This ensures that we only have one EventListener running at a time.
     return () => {
-      // First time executed before useEffect runs second time
       window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);

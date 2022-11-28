@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function usePagination(initialValue = 1) {
+function usePagination(initialValue = 1, maxValue = undefined) {
   const [page, setPage] = useState(initialValue);
 
   function previousPage() {
@@ -10,7 +10,9 @@ function usePagination(initialValue = 1) {
   }
 
   function nextPage() {
-    setPage(page + 1);
+    if (maxValue === undefined || page < maxValue) {
+      setPage(page + 1);
+    }
   }
 
   function goToPage(page) {
@@ -22,7 +24,7 @@ function usePagination(initialValue = 1) {
 }
 
 export default function App() {
-  const { page, previousPage, nextPage, goToPage } = usePagination();
+  const { page, previousPage, nextPage, goToPage } = usePagination(1, 10);
 
   return (
     <>

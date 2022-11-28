@@ -1,4 +1,4 @@
-<p align="center"><img src="../assets/png/dead-simple-react-logo.png"/></p>
+<img src="../assets/png/dead-simple-react-logo.png"/>
 
 # How to Contribute
 

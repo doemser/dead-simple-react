@@ -1,6 +1,4 @@
-<p align="center"><img src="./assets/png/dead-simple-react-logo.png"/></p>
-
-# dead-simple-react
+# <img src="./assets/png/dead-simple-react-logo.png" alt="dead-simple-react"/>
 
 Dead simple, advanced examples to learn to love react and some of its libraries.
 

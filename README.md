@@ -365,6 +365,20 @@ This is the no typescript version of <a href="https://www.npmjs.com/package/use-
 
 ---
 
+## Games
+
+<details>
+ <summary><font size="3">Memory Cards</font></summary>
+This is a super minimal version of a memory cards game.
+
+- uses zustand.js
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+
+</details>
+
+---
+
 ## Something wrong?
 
 Wanna talk about it?

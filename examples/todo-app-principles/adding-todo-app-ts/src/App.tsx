@@ -1,4 +1,3 @@
-import * as React from "react";
 import { useState } from "react";
 import { nanoid } from "nanoid";
 
@@ -11,7 +10,7 @@ export default function App() {
   const [inputValue, setInputValue] = useState<string>("");
   const [todos, setTodos] = useState<todos[]>([
     { name: "buy brokkoli", id: "sdj2Ks" },
-    { name: "eat brokkoli", id: "nZn6xK" },
+    { name: "eat brokkoli", id: "nZn6xK" }
   ]);
 
   return (

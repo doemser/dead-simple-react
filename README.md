@@ -4,14 +4,6 @@ Dead simple, advanced examples to learn to love react and some of its libraries.
 
 ---
 
-## Open Source
-
-This is an open source project. It needs contributors who make it better piece by piece. If you like it, come up with your own examples, or just make a correction to make this repository better. I will be more than happy and proud to review your ideas with you and let them become part of this project.
-
-<a href="./docs/how-to-contribute.md" target="_blank">![How to contribute](./assets/png/how-to-contribute.png)</a>
-
----
-
 ## To-do App - Principles
 
 <details>
@@ -23,6 +15,7 @@ A form that submits to-dos to a list.
 - input field clears after form submit
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/adding-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/adding-todo-app-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 
@@ -35,6 +28,7 @@ A completable to-dos list.
 - uses inline-styling to show if completed
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/completing-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-principles/completing-todo-app-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 
@@ -376,11 +370,3 @@ This is a super minimal version of a memory cards game.
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
 
 </details>
-
----
-
-## Something wrong?
-
-Wanna talk about it?
-
-<a href="https://github.com/doemser/dead-simple-react/issues" target="_blank">![Write / Find Issues](./assets/png/write-find-issues.png)</a>

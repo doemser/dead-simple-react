@@ -309,7 +309,7 @@ Fetch that uses global state with zustand.js.
 
 > Note that zustand.js as a global state management system can be imported directly into components, no matter how deep they are nested in the tree.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-fetching" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-fetching" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-fetching-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

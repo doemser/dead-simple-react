@@ -205,7 +205,7 @@ Fetch that receives data including another url you need to fetch.
 - uses async/await
 - uses a loading state
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-nested-fetching" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-nested-fetching" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-nested-fetching-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

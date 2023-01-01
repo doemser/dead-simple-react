@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-interface todos {
+interface Todo {
   name: string;
   id: string;
 }
 
 export default function App() {
-  const [todos, setTodos] = useState<todos[]>([
+  const [todos, setTodos] = useState<Todo[]>([
     { name: "buy brokkoli", id: "sdj2Ks" },
-    { name: "eat brokkoli", id: "nZn6xK" }
+    { name: "eat brokkoli", id: "nZn6xK" },
   ]);
 
   return (

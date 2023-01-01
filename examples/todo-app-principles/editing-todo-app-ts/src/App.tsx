@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-interface todos {
+interface Todo {
   name: string;
   id: string;
   edit: boolean;
@@ -11,9 +11,9 @@ export default function App() {
   // and would have no added value in a database.
   // There is a better way keeping your data clean,
   // we show it in the advanced examples.
-  const [todos, setTodos] = useState<todos[]>([
+  const [todos, setTodos] = useState<Todo[]>([
     { name: "buy brokkoli", id: "sdj2Ks", edit: false },
-    { name: "eat brokkoli", id: "nZn6xK", edit: false }
+    { name: "eat brokkoli", id: "nZn6xK", edit: false },
   ]);
 
   return (

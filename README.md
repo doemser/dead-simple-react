@@ -235,7 +235,7 @@ Custom hook that returns the position of the mouse.
 - uses a cleanup function in a useEffect
 - one of the most easiest self written hooks
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-mouse-position" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-mouse-position" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-mouse-position-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

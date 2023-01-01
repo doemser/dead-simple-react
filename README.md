@@ -219,7 +219,7 @@ Fetch with pagination that handles race conditions.
 
 > While fetching with pagination it is not guaranteed, that responses arrive in the same order we request them, so we manually take care, that the last request will always be the last no matter if it responded faster than an earlier request.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-handling-race-conditions" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-handling-race-conditions" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/fetching/fetching-handling-race-conditions-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

@@ -124,6 +124,7 @@ A todo-list that is saved in your localStorage.
 > Note that this solution will not work in a ssr environment. For ssr use `useSyncExternalStore` or a dedicated library.
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/saving-todo-app-using-localstorage" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/saving-todo-app-using-localstorage-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

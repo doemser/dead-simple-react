@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-interface todos {
+interface Todo {
   name: string;
   completed: boolean;
   id: string;
 }
 
 export default function App() {
-  const [todos, setTodos] = useState<todos[]>([
+  const [todos, setTodos] = useState<Todo[]>([
     { name: "buy brokkoli", completed: true, id: "sdj2Ks" },
-    { name: "eat brokkoli", completed: false, id: "nZn6xK" }
+    { name: "eat brokkoli", completed: false, id: "nZn6xK" },
   ]);
 
   return (
@@ -38,7 +38,7 @@ export default function App() {
               />
               <span
                 style={{
-                  textDecoration: todo.completed ? "line-through" : "none"
+                  textDecoration: todo.completed ? "line-through" : "none",
                 }}
               >
                 {todo.name}

@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-interface todos {
+interface TodoInterface {
   name: string;
   id: string;
 }
 
 interface TodoProps {
-  todo: todos;
+  todo: TodoInterface;
   onDelete: (id: string) => void;
 }
 
@@ -55,9 +55,9 @@ function Todo({ todo, onDelete }: TodoProps) {
 }
 
 export default function App() {
-  const [todos, setTodos] = useState<todos[]>([
+  const [todos, setTodos] = useState<TodoInterface[]>([
     { name: "buy brokkoli", id: "sdj2Ks" },
-    { name: "eat brokkoli", id: "nZn6xK" }
+    { name: "eat brokkoli", id: "nZn6xK" },
   ]);
 
   // Lifting up state.

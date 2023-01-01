@@ -1,7 +1,7 @@
 import { FormEvent, useState } from "react";
 import { nanoid } from "nanoid";
 
-interface todos {
+interface Todo {
   name: string;
   color: string;
   category: string;
@@ -9,9 +9,9 @@ interface todos {
 }
 
 export default function App() {
-  const [todos, setTodos] = useState<todos[]>([
+  const [todos, setTodos] = useState<Todo[]>([
     { name: "buy brokkoli", color: "#de1717", category: "fun", id: "sdj2Ks" },
-    { name: "eat brokkoli", color: "#6be109", category: "cool", id: "nZn6xK" }
+    { name: "eat brokkoli", color: "#6be109", category: "cool", id: "nZn6xK" },
   ]);
 
   return (
@@ -35,8 +35,8 @@ export default function App() {
               name: data.textInput,
               color: data.colorInput,
               category: data.categorySelection,
-              id: nanoid(6)
-            }
+              id: nanoid(6),
+            },
           ]);
         }}
       >
@@ -75,7 +75,7 @@ export default function App() {
                 style={{
                   width: "10px",
                   height: "10px",
-                  background: todo.color
+                  background: todo.color,
                 }}
               />
             </li>

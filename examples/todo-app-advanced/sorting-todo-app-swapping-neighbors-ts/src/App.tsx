@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-interface todos {
+interface Todo {
   name: string;
   id: number;
 }
 
 export default function App() {
-  const [todos, setTodos] = useState<todos[]>([
+  const [todos, setTodos] = useState<Todo[]>([
     { name: "love", id: 1 },
     { name: "death", id: 2 },
-    { name: "robots", id: 3 }
+    { name: "robots", id: 3 },
   ]);
 
   // Swaps the values of two indexes in an array.

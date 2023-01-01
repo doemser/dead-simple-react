@@ -137,6 +137,7 @@ Todo-list which allows you to swap neighboring to-dos.
 > If you are looking for a better solution, you probably want to take a look at `splice()`method.
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/sorting-todo-app-swapping-neighbors" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-advanced/sorting-todo-app-swapping-neighbors-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

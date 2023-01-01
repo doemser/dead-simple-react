@@ -169,6 +169,7 @@ A form that submits expenses and calculates a budget.
 - size at where you should split up custom components
 
 <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-budget-planner" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-budget-planner-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

@@ -152,7 +152,7 @@ A form that submits colors to a list from where you can copy the hex codes.
 - text and color input are using the same useState
 - uses async function `navigator.clipboard.writeText()`
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-color-palette-creator" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-color-palette-creator" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a><a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-color-palette-creator-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 > Depending on the browser, this will throw an error in Codesandbox's editor-mode, but will most likely work if you open the app in a new window.
 

@@ -1,14 +1,20 @@
 import { useState } from "react";
 import { nanoid } from "nanoid";
 
+interface Review {
+  id: string;
+  rating: number;
+  comment: string;
+}
+
 // const stars = [{id: 0},{id: 1},{id: 2},{id: 3},{id: 4}]
 const stars = Array.from({ length: 5 }, (_, index) => ({
-  id: index,
+  id: index
 }));
 
 export default function App() {
-  const [rating, setRating] = useState(0);
-  const [reviews, setReviews] = useState([]);
+  const [rating, setRating] = useState<number>(0);
+  const [reviews, setReviews] = useState<Review[]>([]);
 
   return (
     <>
@@ -17,7 +23,10 @@ export default function App() {
       <form
         onSubmit={(event) => {
           event.preventDefault();
-          const comment = event.target.elements.textArea.value;
+          const commentArea = (event.target as HTMLFormElement).elements.namedItem(
+            "textArea"
+          ) as HTMLInputElement;
+          const comment = commentArea.value;
           setReviews([{ id: nanoid(), rating, comment }, ...reviews]);
         }}
       >

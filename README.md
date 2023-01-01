@@ -296,7 +296,7 @@ To-do App that uses global state with zustand.js.
 
 > Note that zustand.js as a global state management system can be imported directly into components, no matter how deep they are nested in the tree.
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-todo-app" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/zustand/zustand-todo-app-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

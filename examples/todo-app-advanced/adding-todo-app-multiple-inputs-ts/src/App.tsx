@@ -1,4 +1,4 @@
-import { FormEvent, useState } from "react";
+import { useState } from "react";
 import { nanoid } from "nanoid";
 
 interface Todo {
@@ -20,7 +20,7 @@ export default function App() {
       <h2>multiple inputs</h2>
 
       <form
-        onSubmit={(event: FormEvent<HTMLFormElement>) => {
+        onSubmit={(event) => {
           event.preventDefault();
           // Creates a FormData object.
           const formData: FormData = new FormData(

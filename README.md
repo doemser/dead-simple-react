@@ -180,7 +180,7 @@ A form that says what you submit to a list from which you can say it again.
 - uses Web Speech API
 - uses your browsers default language/voice
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-speech-synthesizer" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-speech-synthesizer" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/todo-app-disguised/todo-app-disguised-speech-synthesizer-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>
 

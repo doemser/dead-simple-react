@@ -7,6 +7,7 @@ import useChosen from "./hooks/useChosen";
 export default function App() {
   const cards = useStore((state) => state.cards);
   const score = useStore((state) => state.score);
+  const gameOver = score.matches === cards.length / 2;
   const { check } = useChosen();
 
   useEffect(() => {
@@ -25,6 +26,7 @@ export default function App() {
       <p>
         Tries: {score.tries} Matches: {score.matches}
       </p>
+      {gameOver && <h2>good job.</h2>}
       <PlayGround>
         {cards.map((card) => {
           return <MemoryCard key={card.id} card={card} />;

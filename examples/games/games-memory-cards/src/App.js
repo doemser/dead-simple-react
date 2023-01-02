@@ -2,13 +2,10 @@ import { useEffect } from "react";
 import PlayGround from "./components/PlayGround";
 import MemoryCard from "./components/MemoryCard";
 import useStore from "./hooks/useStore";
-import useChosen from "./hooks/useChosen";
+import useGame from "./hooks/useGame";
 
 export default function App() {
-  const cards = useStore((state) => state.cards);
-  const score = useStore((state) => state.score);
-  const gameOver = score.matches === cards.length / 2;
-  const { check } = useChosen();
+  const { cards, score, check, gameOver } = useGame();
 
   useEffect(() => {
     let timeoutID;

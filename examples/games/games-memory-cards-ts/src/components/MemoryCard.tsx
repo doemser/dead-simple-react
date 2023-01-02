@@ -1,6 +1,5 @@
 import { MemoryCardProps } from "../interfaces";
-import useStore from "../hooks/useStore";
-import useChosen from "../hooks/useChosen";
+import useGame from "../hooks/useGame";
 
 const style = {
   margin: "5px",
@@ -10,8 +9,7 @@ const style = {
 export default function MemoryCard({
   card: { id, name, matched }
 }: MemoryCardProps) {
-  const chooseCard = useStore((state) => state.chooseCard);
-  const { active, check } = useChosen(id);
+  const { chooseCard, active, check } = useGame(id);
 
   return (
     <>

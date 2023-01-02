@@ -377,6 +377,6 @@ This is a super minimal version of a memory cards game.
 
 - uses zustand.js
 
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
 
 </details>

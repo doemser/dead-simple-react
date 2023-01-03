@@ -11,7 +11,7 @@ export default function Tiles() {
       style={{
         display: "grid",
         gridTemplateColumns: `repeat(${mapSize}, ${tileSize}px)`,
-        border: "2px solid black"
+        border: "2px solid black",
       }}
     >
       {mapTiles.map((column, columnIndex) => {
@@ -24,10 +24,9 @@ export default function Tiles() {
                   style={{
                     height: `${tileSize}px`,
                     border: "1px solid black",
-                    background: tile.alive ? tile.color : "transparent"
+                    background: tile.alive ? tile.color : "transparent",
                   }}
                   onClick={() => {
-                    console.log("whaddup?");
                     toggleTile(tile.id);
                   }}
                 ></div>

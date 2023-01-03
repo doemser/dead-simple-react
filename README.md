@@ -278,6 +278,16 @@ This is a super minimal version of a arcade game.
 
 </details>
 
+<details>
+ <summary><font size="3">Conway´s Game of Life</font></summary>
+This is a super minimal version of the most famous zero player game.
+
+- uses zustand.js
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-conways-game-of-life" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-conways-game-of-life-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
+
+</details>
+
 ---
 
 ## <a href="https://www.npmjs.com/package/zustand" target="_blank">zustand.js</a>

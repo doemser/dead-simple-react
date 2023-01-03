@@ -1,0 +1,107 @@
+import create from "zustand";
+import { nanoid } from "nanoid";
+import { mapSize, tileSize, operations, speed } from "../utils/config";
+import { randomColor } from "../utils/random";
+
+const useStore = create((set) => ({
+  speed,
+  run: false,
+  setRun: () => {
+    set(({ run }) => ({ run: !run }));
+  },
+  setSpeed: (speed) => {
+    set({ speed });
+  },
+  sizes: { mapSize, tileSize },
+  mapTiles: Array.from({ length: mapSize }, () => {
+    return Array.from({ length: mapSize }, () => {
+      return {
+        id: nanoid(),
+        alive: false,
+        neighbors: 0,
+        color: randomColor()
+      };
+    });
+  }),
+  setRandomTiles: () => {
+    set(({ mapTiles }) => ({
+      mapTiles: mapTiles.map((column) => {
+        return column.map((tile) => {
+          return {
+            ...tile,
+            alive: Math.round(Math.random() * 0.6),
+            color: randomColor()
+          };
+        });
+      })
+    }));
+  },
+  resetTiles: () => {
+    set(({ mapTiles }) => ({
+      mapTiles: mapTiles.map((column) => {
+        return column.map((tile) => {
+          return {
+            ...tile,
+            alive: false
+          };
+        });
+      })
+    }));
+  },
+  toggleTile: (id) => {
+    set(({ mapTiles }) => ({
+      mapTiles: mapTiles.map((column) => {
+        return column.map((tile) => {
+          return tile.id === id ? { ...tile, alive: !tile.alive } : tile;
+        });
+      })
+    }));
+  },
+  checkNeighbors: () => {
+    set(({ mapTiles }) => ({
+      mapTiles: mapTiles.map((column, columnIndex) => {
+        return column.map((tile, tileIndex) => {
+          let neighbors = 0;
+          operations.forEach((operation) => {
+            const col = columnIndex + operation[0];
+            const row = tileIndex + operation[1];
+            if (
+              col >= 0 &&
+              row >= 0 &&
+              col < mapTiles.length &&
+              row < mapTiles[col].length &&
+              mapTiles[col][row].alive
+            ) {
+              neighbors++;
+            }
+          });
+
+          return { ...tile, neighbors };
+        });
+      })
+    }));
+  },
+  nextGeneration: () => {
+    set(({ mapTiles }) => ({
+      mapTiles: mapTiles.map((column) => {
+        return column.map((tile) => {
+          if (
+            (tile.alive && tile.neighbors < 2) ||
+            (tile.alive && tile.neighbors > 3)
+          ) {
+            return { ...tile, alive: false };
+          } else if (
+            (!tile.alive && tile.neighbors === 3) ||
+            (tile.alive && (tile.neighbors === 2 || tile.neighbors === 3))
+          ) {
+            return { ...tile, alive: true, color: randomColor() };
+          } else {
+            return tile;
+          }
+        });
+      })
+    }));
+  }
+}));
+
+export default useStore;

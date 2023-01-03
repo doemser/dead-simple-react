@@ -27,6 +27,7 @@ export default function Tiles() {
                     background: tile.alive ? tile.color : "transparent"
                   }}
                   onClick={() => {
+                    console.log("whaddup?");
                     toggleTile(tile.id);
                   }}
                 ></div>

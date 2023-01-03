@@ -5,7 +5,7 @@ import { randomColor } from "../utils/random";
 
 interface MapTile {
   id: string;
-  alive: number;
+  alive: boolean;
   neighbors: number;
   color: string;
 }
@@ -38,7 +38,7 @@ const useStore = create<StoreState>((set) => ({
     return Array.from({ length: mapSize }, () => {
       return {
         id: nanoid(),
-        alive: 0,
+        alive: false,
         neighbors: 0,
         color: randomColor()
       };
@@ -51,7 +51,7 @@ const useStore = create<StoreState>((set) => ({
           return column.map((tile) => {
             return {
               ...tile,
-              alive: Math.round(Math.random() * 0.6),
+              alive: Math.round(Math.random() * 0.6) > 0 ? true : false,
               color: randomColor()
             };
           });
@@ -65,7 +65,7 @@ const useStore = create<StoreState>((set) => ({
         return column.map((tile) => {
           return {
             ...tile,
-            alive: 0
+            alive: false
           };
         });
       })
@@ -75,7 +75,7 @@ const useStore = create<StoreState>((set) => ({
     set(({ mapTiles }) => ({
       mapTiles: mapTiles.map((column) => {
         return column.map((tile) => {
-          return tile.id === id ? { ...tile, alive: tile.alive } : tile;
+          return tile.id === id ? { ...tile, alive: !tile.alive } : tile;
         });
       })
     }));
@@ -112,12 +112,12 @@ const useStore = create<StoreState>((set) => ({
             (tile.alive && tile.neighbors < 2) ||
             (tile.alive && tile.neighbors > 3)
           ) {
-            return { ...tile, alive: 0 };
+            return { ...tile, alive: false };
           } else if (
             (!tile.alive && tile.neighbors === 3) ||
             (tile.alive && (tile.neighbors === 2 || tile.neighbors === 3))
           ) {
-            return { ...tile, alive: 1, color: randomColor() };
+            return { ...tile, alive: true, color: randomColor() };
           } else {
             return tile;
           }

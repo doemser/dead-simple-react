@@ -5,7 +5,7 @@ export default function PlayGround({ children }) {
         display: "grid",
         gridTemplateColumns: "repeat(4, 25%)",
         gridTemplateRows: "repeat(4, auto)",
-        textAlign: "center"
+        textAlign: "center",
       }}
     >
       {children}

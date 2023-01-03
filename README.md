@@ -255,6 +255,31 @@ Custom hook you can use to implement pagination.
 
 ---
 
+## Games
+
+<details>
+ <summary><font size="3">Memory Cards</font></summary>
+This is a super minimal version of a memory cards game.
+
+- uses zustand.js
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
+
+</details>
+
+<details>
+ <summary><font size="3">Arcade Survival Game</font></summary>
+This is a super minimal version of a arcade game.
+
+- uses zustand.js
+- uses use-wasd
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-arcade-survival" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-arcade-survival-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
+
+</details>
+
+---
+
 ## <a href="https://www.npmjs.com/package/styled-components" target="_blank">styled-components</a>
 
 <details>
@@ -368,15 +393,3 @@ This is the no typescript version of <a href="https://www.npmjs.com/package/use-
 </details>
 
 ---
-
-## Games
-
-<details>
- <summary><font size="3">Memory Cards</font></summary>
-This is a super minimal version of a memory cards game.
-
-- uses zustand.js
-
-<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-memory-cards-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
-
-</details>

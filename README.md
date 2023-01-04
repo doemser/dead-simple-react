@@ -253,6 +253,20 @@ Custom hook you can use to implement pagination.
 
 </details>
 
+<details>
+ <summary><font size="3">useFetch</font></summary>
+Custom hook you can use to fetch.
+
+- returns an object with 3 values
+- returns data
+- returns returns loading state
+- returns returns error state
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-fetch" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/custom-hooks/custom-hooks-use-fetch-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
+
+</details>
+
 ---
 
 ## Games

@@ -283,7 +283,7 @@ This is a super minimal version of a memory cards game.
 
 <details>
  <summary><font size="3">Arcade Survival Game</font></summary>
-This is a super minimal version of a arcade game.
+This is a super minimal version of an arcade game.
 
 - uses zustand.js
 - uses use-wasd

@@ -370,6 +370,16 @@ Custom component that returns styled text components depending on the props you 
 
 </details>
 
+<details>
+ <summary><font size="3">API imitation</font></summary>
+Imitates the most basic feature of styled-components.
+
+> Does not have all the features by far, but the most basic functionality becomes more accessible and comprehensible.
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/styled-components/styled-components-api-imitation" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a>
+
+</details>
+
 ---
 
 ## <a href="https://www.npmjs.com/package/use-wasd" target="_blank">use-wasd</a>

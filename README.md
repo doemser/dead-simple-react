@@ -302,6 +302,16 @@ This is a super minimal version of the most famous zero player game.
 
 </details>
 
+<details>
+ <summary><font size="3">Tic-Tac-Toe</font></summary>
+As a local multiplayer version.
+
+- uses zustand.js
+
+<a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-tic-tac-toe" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox.png)</a> <a href="https://githubbox.com/doemser/dead-simple-react/tree/main/examples/games/games-tic-tac-toe-ts" target="_blank">![Edit in Codesandbox](./assets/png/edit-in-codesandbox-ts.png)</a>
+
+</details>
+
 ---
 
 ## <a href="https://www.npmjs.com/package/zustand" target="_blank">zustand.js</a>
